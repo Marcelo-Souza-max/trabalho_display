@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: block;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  header {
+    display: block;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  header a {
+    display: block;
+    display: inline-block;
+    margin-right: auto;
+    
+    color: blue;
+    border: 1px solid #000000;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 0 40px;
+  }
+  
+  .section-projetos {
+    margin-bottom: 40px;
+  }
+  
+  .section-projetos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .card-projeto {
+    border: 1px solid #000000;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .section-sobre h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .section-sobre p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .badge {
+    border: 1px solid #000000;
+    padding: 2px 6px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  footer {
+    border-top: 1px solid #000000;
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 40px;
+  
+  
+  }
+  
